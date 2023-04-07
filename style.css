@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/background1.png);
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #fff;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all .3s ease-out;
+}
+.icon:hover{
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffff;
+}
+.icon:hover i{
+    color: #ffff;
+}
+.icon .fa-twitch{
+    color: #6739e7;
+}
+.twi:hover{
+    background-color: #6739e7;
+}
+
+.icon .fa-twitter{
+    color: #3184f8;
+}
+.twt:hover{
+    background-color: #3184f8;
+}
+
+.icon .fa-discord{
+    color: #8c62fe;
+}
+.dscd:hover{
+    background-color: #8c62fe;
+}
+
+.icon .fa-github{
+    color: #001335;
+}
+.git:hover{
+    background-color: #001335;
+}
+
+.icon .fa-youtube{
+    color: #e73939;
+}
+.ytb:hover{
+    background-color: #e73939;
+}
